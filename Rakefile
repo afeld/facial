@@ -17,10 +17,11 @@ Jeweler::Tasks.new do |gem|
   gem.name = "facial"
   gem.homepage = "http://github.com/afeld/facial"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Simple library for face detection using OpenCV}
+  # gem.description = %Q{TODO: longer description of your gem}
   gem.email = "aidan.feldman@gmail.com"
   gem.authors = ["Aidan Feldman"]
+  gem.requirements << "opencv 2.4+"
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
